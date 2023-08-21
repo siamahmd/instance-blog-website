@@ -1,0 +1,115 @@
+.mz-top-section{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+    &__left{
+        
+       flex: 0 0 25%;     
+    }
+
+    &__middle{
+    flex: 0 0 50%;
+
+                
+        .post-middle{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 10px;
+            padding: 0px 10px;
+
+            .image-wrapper{
+                width: 95%;
+                height: 280px;
+                overflow: hidden;
+            }
+            &__image{
+                width: 100%;
+                height: 100%;
+                object-fit: cover; 
+                object-position: 50% 50%;
+                transition: transform 0.25s ease-in;  
+            }
+        }
+
+
+    }
+
+    &__right{
+        padding: 0px 20px;
+        flex: 0 0 25%;      
+    }
+}
+
+
+
+
+
+
+
+    @media only screen and (max-width: 768px)
+    {
+        .mz-top-section{
+
+            &__left{
+                flex: 0 0 50%;
+                padding: 0px 10px;
+             }
+        
+            &__middle{
+               flex: 0 0 100%;
+               order: -1;
+            }
+
+            &__right{
+                flex: 0 0 50%;
+                padding: 0px 10px;
+               
+                
+            }
+        
+        }
+        
+    }
+
+    @media only screen and (max-width: 450px)
+    {
+        .mz-top-section{
+
+            &__left{
+                flex: 0 0 100%;
+             }
+        
+            &__middle{
+               flex: 0 0 100%;
+               order: -1;
+            }
+
+            &__right{
+                flex: 0 0 100%;                          
+            }
+         
+        }
+    }
+
+
+    
+
+    .hero{
+        margin-top: 20px;
+        overflow: hidden;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .left{
+            flex: 0 0 20%;
+        }
+        .right{
+            flex: 0 0 80%;
+        }
+    }

@@ -1,0 +1,14 @@
+{
+  "name": "materialized",
+  "version": "1.0.0",
+  "description": "Blog Website HTML5 Template",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Siam Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
