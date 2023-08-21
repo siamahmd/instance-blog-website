@@ -18,11 +18,11 @@
 //         font-size: 6rem;
 //         font-weight: 400;
 //         letter-spacing: 3.5rem;
-    
+
 //         animation-name: moveInLeft;
 //         animation-duration: 1s;
 //         animation-timing-function: ease-out;
-        
+
 //         @include respond(phone) {
 //             letter-spacing: 1rem;
 //             font-family: 5rem;
@@ -32,7 +32,7 @@
 //         animation-iteration-count: 3;
 //         */
 //     }
-    
+
 //     &--sub {
 //         display: block;
 //         font-size: 2rem;
@@ -85,71 +85,63 @@
 //     }
 // }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
 @font-face {
-    font-family: LabGrotesque;
-    src: url(../fonts/LabGrotesque-Regular.woff2)
-        format("woff2"),
-      url(../fonts/LabGrotesque-Regular.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-family: LabGrotesque;
+  src: url(../fonts/LabGrotesque-Regular.woff2) format('woff2'),
+    url(../fonts/LabGrotesque-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: LabGrotesque;
-    src: url(../fonts/LabGrotesque-Medium.woff2)
-        format("woff2"),
-      url(../fonts/LabGrotesque-Medium.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: LabGrotesque;
-    src: url(../fonts/LabGrotesque-Black.woff2) format("woff2"),
-      url(../fonts/LabGrotesque-Black.woff) format("woff");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: LabGrotesque;
-    src: url(../fonts/LabGrotesque-BlackItalic.woff2)
-        format("woff2"),
-      url(../fonts/LabGrotesque-BlackItalic.woff)
-        format("woff");
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  
-  /**
+@font-face {
+  font-family: LabGrotesque;
+  src: url(../fonts/LabGrotesque-Medium.woff2) format('woff2'),
+    url(../fonts/LabGrotesque-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: LabGrotesque;
+  src: url(../fonts/LabGrotesque-Black.woff2) format('woff2'),
+    url(../fonts/LabGrotesque-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: LabGrotesque;
+  src: url(../fonts/LabGrotesque-BlackItalic.woff2) format('woff2'),
+    url(../fonts/LabGrotesque-BlackItalic.woff) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/**
 
    */
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6
-   {
-    font-family: LabGrotesque, Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-style: normal;
 
-  }
-  
-  body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    overflow-x: hidden;
-    width: 100%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: LabGrotesque, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
 }

@@ -1,17 +1,17 @@
-.category{
-    font-family: LabGrotesque, Helvetica, Arial, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 11px;
-    text-transform: uppercase;         
-    padding: 2px 5px;
-    color: #fff;
-    background-color: var(--color-primary);
-    text-decoration: none;
-    transition: color 0.25s ease-in;
+.category {
+  font-family: LabGrotesque, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  color: #fff;
+  background-color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.25s ease-in;
 
-    &:hover{
-        background-color: #eee;
-        color: var(--color-secondary);
-    }
+  &:hover {
+    background-color: #eee;
+    color: var(--color-secondary);
+  }
 }

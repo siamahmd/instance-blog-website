@@ -1,137 +1,106 @@
-.mz-section-two{
-    margin: 20px 0px;
-   
-    min-height: 600px;
+.mz-section-two {
+  margin: 20px 0px;
 
-    display: flex;
-    flex-wrap: wrap;
-  
+  min-height: 600px;
 
-    &__left{
-        
-        width: 100%;
-        height: 100%;
-        
+  display: flex;
+  flex-wrap: wrap;
 
-        flex: 0 0 75%;
+  &__left {
+    width: 100%;
+    height: 100%;
 
-        .section-inner{
+    flex: 0 0 75%;
 
-            display: flex;
-            flex-wrap: wrap;
+    .section-inner {
+      display: flex;
+      flex-wrap: wrap;
 
-            &__left{
-                flex: 0 0 50%;
+      &__left {
+        flex: 0 0 50%;
 
-                .posts-left{
-                    
-                   
-                        .post{
-                            .post-content{
-                                display: flex;
+        .posts-left {
+          .post {
+            .post-content {
+              display: flex;
 
-                                &__top{
-                                    overflow: hidden;
-                                    cursor: pointer;
-                                    width: 100%;
-                                    height: 250px; 
-                                    
-                                    .image{
-                                        width: 100%;
-                                        height: 100%;     
-                                        object-fit: cover; 
-                                        object-position: 50% 50%;
-                                        transition: transform 0.25s ease-in;  
-                                    }
-                                }
+              &__top {
+                overflow: hidden;
+                cursor: pointer;
+                width: 100%;
+                height: 250px;
 
-                                &__bottom{
-                                    margin-top: 20px;
-                                }
-                            }
-
-                        }
+                .image {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  object-position: 50% 50%;
+                  transition: transform 0.25s ease-in;
                 }
+              }
+
+              &__bottom {
+                margin-top: 20px;
+              }
             }
-
-            &__right{
-                flex: 0 0 50%;
-
-                .posts-right{
-
-                    padding: 0px 10px;
-                  
-                   
-        
-                    .post{
-                        .post-content{
-                            display: flex;
-                            flex-direction: row;
-                            gap: 20px;
-                        }
-                    }
-        
-                }
-            }
+          }
         }
+      }
+
+      &__right {
+        flex: 0 0 50%;
+
+        .posts-right {
+          padding: 0px 10px;
+
+          .post {
+            .post-content {
+              display: flex;
+              flex-direction: row;
+              gap: 20px;
+            }
+          }
+        }
+      }
     }
+  }
 
+  &__right {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 0px 10px;
 
-    &__right{
-        background-color:aquamarine ;
-        width: 100%;
-        padding: 0px 10px;
-
-        flex: 0 0 25%;
-
-       
-
-    }
+    flex: 0 0 25%;
+  }
 }
 
-
-
-@media only screen and (max-width: 1100px)
-{
-    .mz-section-two{
-        
-        &__left{
-        
-            flex: 0 0 100%;
-        }
-    
-        &__right{
-            
-            flex: 0 0 100%;
-    
-        }
+@media only screen and (max-width: 1100px) {
+  .mz-section-two {
+    &__left {
+      flex: 0 0 100%;
     }
-    
-    
+
+    &__right {
+      flex: 0 0 100%;
+    }
+  }
 }
 
-
-@media only screen and (max-width: 768px)
-{
-    .mz-section-two{
-        
-        &__left{
-            .section-inner{
-
-                &__left{                              
-                     flex: 0 0 100%;
-                }
-                    
-               &__right{
-                    flex: 0 0 100%;        
-                    }
-                }
-            }
+@media only screen and (max-width: 768px) {
+  .mz-section-two {
+    &__left {
+      .section-inner {
+        &__left {
+          flex: 0 0 100%;
         }
+
+        &__right {
+          flex: 0 0 100%;
+        }
+      }
     }
+  }
+}
 
-
-@media only screen and (max-width: 450px)
-{
-   
+@media only screen and (max-width: 450px) {
 }

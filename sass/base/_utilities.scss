@@ -9,7 +9,7 @@
 //     }
 // }
 
-// .u-margin-bottom-big { 
+// .u-margin-bottom-big {
 //     margin-bottom: 8rem !important;
 
 //     @include respond(tab-port) {
@@ -21,10 +21,9 @@
 // .u-margin-top-huge { margin-top: 10rem !important; }
 
 .container {
-    max-width: 1260px;
-    width: 100%;
-    margin: 0px auto;
-    padding-right: 15px;
-    padding-left: 15px;
+  max-width: 1260px;
+  width: 100%;
+  margin: 0px auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-
