@@ -1,6 +1,6 @@
 .tabContainer {
   .tabPanel + .tabPanel {
-    display: none;
+    opacity: 0;
   }
 }
 
@@ -14,6 +14,21 @@
 
     .tab-menu {
       margin-left: auto;
+
+      .buttonContainer {
+        button {
+          padding: 10px 20px;
+          font-weight: bold;
+          background: var(--color-primary);
+          color: whitesmoke;
+          cursor: pointer;
+          &:hover {
+            border: 2px solid var(--color-primary);
+            background: whitesmoke;
+            color: black;
+          }
+        }
+      }
     }
   }
 
@@ -22,11 +37,13 @@
 
     .tabContainer {
       .tabPanel {
+        transition: opacity 0.25s ease-in;
         .posts {
           display: flex;
           justify-content: center;
           gap: 25px;
           .post {
+            flex: 0 0 32%;
             .post-content {
               display: flex;
 
@@ -47,6 +64,9 @@
 
               &__bottom {
                 margin-top: 20px;
+                .title {
+                  text-transform: capitalize;
+                }
               }
             }
           }
@@ -97,6 +117,7 @@
         gap: 10px;
 
         &__left {
+          flex: 0 0 50%;
           overflow: hidden;
           cursor: pointer;
           width: 100%;
@@ -109,6 +130,9 @@
             object-position: 50% 50%;
             transition: transform 0.25s ease-in;
           }
+        }
+        &__right {
+          flex: 0 0 50%;
         }
       }
     }

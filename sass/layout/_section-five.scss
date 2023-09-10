@@ -1,0 +1,171 @@
+.section-five {
+  height: 100vh;
+
+  .wrapper {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+
+    .left-section {
+      height: 100%;
+      flex: 0 0 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .posts {
+        padding: 20px;
+        .post {
+          display: flex;
+          .post-title {
+            .title {
+              font-size: 1.4rem;
+              letter-spacing: 0px;
+            }
+          }
+          &_left {
+            flex: 0 0 40%;
+            overflow: hidden;
+            cursor: pointer;
+            width: 100%;
+            height: 200px;
+            padding: 5px;
+
+            .image {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: 50% 50%;
+              transition: transform 0.25s ease-in;
+            }
+          }
+          &_right {
+            flex: 0 0 60%;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+    .right-section {
+      height: 100%;
+      flex: 0 0 30%;
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .social-portfolio {
+          padding-top: 50px;
+          max-width: 400px;
+          display: grid;
+          grid: repeat(2, 100px) / auto-flow 80px;
+
+          .socail-profile {
+            border: 2px solid #f1f1f1;
+            border-radius: 5px;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+              width: 100%;
+              height: 100%;
+              color: var(--color-primary);
+              font-size: 10px;
+              font-weight: bold;
+              text-decoration: none;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .icon i {
+              font-size: 25px;
+            }
+            // .facebook-icon {
+            //   background: #007bff;
+            // }
+            // .google-plus-icon {
+            //   background: #d94830;
+            // }
+            // .twitter-icon {
+            //   background: #007bff;
+            // }
+            // .youtube-icon {
+            //   background: #e21c00;
+            // }
+            // .instagram-icon {
+            // }
+            // .vimeo-icon {
+            // }
+            // .pinterest-icon {
+            // }
+            // .soundcloud-icon {
+            // }
+          }
+        }
+        .subscribe-box {
+          margin-bottom: auto;
+          margin-top: 30px;
+          max-width: 400px;
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          text-align: center;
+          border-radius: 10px;
+          border: 2px solid #f1f1f1;
+          p {
+            font-size: 18px;
+            width: 90%;
+          }
+          .subscribe-form {
+            .form {
+              .form-group {
+                input {
+                  width: 90%;
+                  background-color: #f6f6f6;
+                  color: gray;
+                  font-size: 14px;
+                  font-style: normal;
+                  height: 40px;
+                  border: 2px solid #f1f1f1;
+                  border-radius: 40px;
+                  margin-bottom: 10px;
+                  text-align: center;
+                  outline: none;
+                  margin-top: 8px;
+                }
+                .subscribe-btn {
+                  cursor: pointer;
+                  width: 90%;
+                  border-radius: 40px;
+                  font-weight: bold;
+                  background: var(--color-primary);
+                  border: 2px solid var(--color-primary);
+                  border: 0 solid;
+                  color: #fff;
+                  font-size: 16px;
+                  height: 40px;
+                  line-height: 40px;
+                  padding: 0 25px;
+
+                  &:hover {
+                    background-color: whitesmoke;
+                    color: black;
+                    border: 2px solid var(--color-primary);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

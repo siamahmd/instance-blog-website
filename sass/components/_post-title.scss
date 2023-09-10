@@ -1,0 +1,31 @@
+.post-title {
+  .title {
+    color: var(--color-primary);
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 600;
+    cursor: pointer;
+    background: linear-gradient(
+        to right,
+        rgba(224, 225, 221, 1),
+        rgba(224, 225, 221, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 196, 61, 1),
+        rgba(239, 71, 111, 1),
+        rgba(6, 214, 160, 1)
+      );
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+
+    &:hover,
+    &:focus {
+      background-size: 0 0.1em, 100% 0.1em;
+    }
+  }
+}

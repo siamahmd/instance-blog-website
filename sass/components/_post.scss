@@ -21,20 +21,11 @@
       }
     }
 
-    &__right {
-      .title {
-        position: relative;
-        font-size: 16px;
-        line-height: 1.28em;
-        transition: color 0.25s ease-in;
-        text-transform: capitalize;
-      }
-    }
-    &:hover {
-      .image {
-        transform: scale(1.05);
-      }
-    }
+    // &:hover {
+    //   .image {
+    //     transform: scale(1.05);
+    //   }
+    // }
   }
 
   p {

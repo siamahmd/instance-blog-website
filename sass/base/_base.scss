@@ -55,5 +55,25 @@ h3:hover {
 }
 
 section + section {
-  margin: 50px 0px;
+  padding: 50px 50px;
+}
+
+// Section Colours
+
+.header {
+  background: #f1e3d3;
+}
+.one {
+  background: #f1e3d3;
+
+  padding-bottom: 50px;
+}
+.two {
+  background: #fff1e6;
+}
+.three {
+  background: #e6e8e6;
+}
+.four {
+  background: #cde5d7;
 }

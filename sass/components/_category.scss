@@ -2,16 +2,38 @@
   font-family: LabGrotesque, Helvetica, Arial, sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   padding: 2px 5px;
-  color: #fff;
+  color: black;
   background-color: var(--color-primary);
   text-decoration: none;
   transition: color 0.25s ease-in;
-
   &:hover {
-    background-color: #eee;
-    color: var(--color-secondary);
+    color: gray;
   }
+
+  &__lifestyle {
+    background: #e4c1f9;
+  }
+  &__fashion {
+    background: #ff99c8;
+  }
+  &__sports {
+    background: #fcf6bd;
+  }
+  &__news {
+    background: #ff595e;
+  }
+  &__business {
+    background: #a9def9;
+  }
+  &__travelling {
+    background: #d0f4de;
+  }
+
+  // &:hover {
+  //   background-color: #eee;
+  //   color: var(--color-secondary);
+  // }
 }
