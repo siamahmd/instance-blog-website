@@ -1,0 +1,23 @@
+.post-meta {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  &__icon {
+    cursor: pointer;
+    font-size: 13px;
+    color: #81b29a;
+  }
+
+  &__user {
+    background: #e4e6c3;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    color: #003b36;
+  }
+  &__date {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

@@ -36,7 +36,7 @@ var swiperTwo = new Swiper('.SwiperSlideRight', {
   // },
   loop: true,
   autoplay: {
-    delay: 2000,
+    delay: 1000,
   },
   breakpoints: {
     640: {
